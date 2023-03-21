@@ -380,22 +380,22 @@ then, Click [Fetch Device Environment]Button.
 
 * Variable - QT_QPA_PLATFORMTHEME  
 Value - qt6ct  
-<br>    
+   
 * Variable : DISPLAY  
 Value : 0  or   Value : 0.0  
-<br>
+
 * Variable : LD_LIBRARY_PATH  
 Value : /home/<PinePhone's User Name>/InstallSoftware/Qt6/lib:/home/<PinePhone's User Name>/InstallSoftware/Qt6/plugins/qmltooling  
-<br>
+
 * Variable : QML_IMPORT_PATH  
 Value : /home/<PinePhone's User Name>/InstallSoftware/Qt6/qml  
-<br>
+
 * Variable : QML2_IMPORT_PATH  
 Value : /home/<PinePhone's User Name>/InstallSoftware/Qt6/qml  
-<br>
+
 * Variable : QT_PLUGIN_PATH  
 Value : /home/<PinePhone's User Name>/InstallSoftware/Qt6/plugins  
-<br>
+
 * Variable : QT_QPA_PLATFORM_PLUGIN_PATH  
 Value : /home/<PinePhone's User Name>/InstallSoftware/Qt6/plugins/platforms  
 

@@ -50,6 +50,7 @@ Run the Qt online installer.
 <br>
 
 Follow the Qt installation screen to install Qt 6.  
+<u>*Be sure to match the version of Qt 6 you are cross-compiling.*</u>  
 <br>
 <br>
 
@@ -354,7 +355,7 @@ Additional Startup Commands : set sysroot target:/
   9. In [CMake Configuration], click [Change...] button.  
      Input the settings shown below.  **\*1**  
      <br>
-     **-DCMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/<Path to Cross-Compiled Qt6 Install directory>/lib/cmake/Qt6/qt.toolchain.cmake**  
+     **-DCMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/\<Path to Cross-Compiled Qt6 Install directory\>/lib/cmake/Qt6/qt.toolchain.cmake**  
      <br>
      Press [Apply] button.  
      <br>
@@ -363,9 +364,9 @@ Additional Startup Commands : set sysroot target:/
      This setting can be set by selecting [Projects] - [Build & Run] - [Build] on the left side screen of Qt Creator.  
      It can be set for each project by editing the value of **CMAKE_TOOLCHAIN_FILE** in [Build Settings] in the right pane of Qt Creator main screen.  
 
-     |CMake Configuration *1|CMake Configuration *2|
-     |---|---|
-     |![](HC/Qt6_CC_PP_1.png)|![](HC/Qt6_CC_PP_2.png)|
+     |Qt6 Kit settings|CMake Configuration *1|CMake Configuration *2|
+     |---|---|---|
+     |![](HC/Qt6_CC_PP_1.png)|![](HC/Qt6_CC_PP_2.png)|![](HC/Qt6_CC_PP_3.png)|
 
 <br>
 <br>
